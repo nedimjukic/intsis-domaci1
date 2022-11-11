@@ -122,7 +122,6 @@ class Aki(Agent):
 
     def get_agent_path(self, coin_distance):
         path = []
-        minimum = sys.maxsize
         curr_index = next_index = 0
 
         while len(path) < len(coin_distance):
